@@ -5,6 +5,7 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: $control-fitness-blue;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -17,6 +18,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  color: $control-fitness-text !important;
 
   &,
   &:visited {
@@ -37,7 +39,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $control-fitness-text;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -50,9 +52,7 @@
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
+    background-color: $control-fitness-blue;
     text-align: right;
 
     label[for="nav-trigger"] {
@@ -72,6 +72,7 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
+      background-color: $control-fitness-blue;
 
       > svg {
         fill: $grey-color-dark;
@@ -91,6 +92,7 @@
     .page-link {
       display: block;
       padding: 5px 10px;
+      color: $control-fitness-text;
 
       &:not(:last-child) {
         margin-right: 0;
@@ -108,11 +110,13 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-color: $control-fitness-black;
 }
 
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $control-fitness-text;
 }
 
 .contact-list,
@@ -121,9 +125,13 @@
   margin-left: 0;
 }
 
+.contact-list li a, .social-media-list li a {
+  color: $control-fitness-text;
+}
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $control-fitness-text;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
