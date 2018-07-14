@@ -2,12 +2,10 @@
 title: Account User Activate
 layout: post
 date: '2018-07-10 22:34:40 -0600'
-categories: jekyll update
+mutation: AccountUserActivate
+type: Mutation
+categories: mutations
 ---
-
-**Mutation name**:
-
-`AccountUserActivate`
 
 **Inputs**:
 
