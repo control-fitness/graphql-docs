@@ -18,8 +18,10 @@ email: info@control.fitness
 description: GraphQL API Docs for Control Fitness
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+instagram_username: FitnessERP
+facebook_username: FitnessERP
+twitter_username: FitnessERP
+github_username:  control-fitness
 
 # Build settings
 markdown: kramdown
